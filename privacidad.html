@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacidad de Roseta</title>
+<style>
+/* Layout: una sola columna de lectura, ~65 caracteres, con los apartados como en un aviso legal. */
+:root { --bg:#F6F6F3; --fg:#161A18; --fg2:#4A504C; --acento:#1E6B57; --borde:#E4E4DE;
+  --ios:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0F1A24; --fg:#ECEFE8; --fg2:#A9B6C0; --acento:#8FD3BB; --borde:#243547; color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#0F1A24; --fg:#ECEFE8; --fg2:#A9B6C0; --acento:#8FD3BB; --borde:#243547; color-scheme:dark; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 var(--ios); padding-block:40px 64px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width:66ch; margin:0 auto; }
+h1 { font-size:32px; line-height:1.15; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance; }
+.fecha { color:var(--fg2); margin:0 0 28px; font-size:14px; }
+h2 { font-size:19px; margin:32px 0 6px; text-wrap:balance; }
+p, li { color:var(--fg2); }
+strong { color:var(--fg); }
+ul { padding-left:20px; }
+.resumen { border:1px solid var(--borde); border-left:3px solid var(--acento); border-radius:10px; padding:14px 18px; margin:0 0 8px; }
+.resumen p { margin:0; color:var(--fg); }
+a { color:var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Aviso de privacidad de Roseta</h1>
+  <p class="fecha">Vigente desde el 23 de octubre de 2026</p>
+
+  <div class="resumen"><p><strong>En corto:</strong> Roseta no recolecta tus datos. Tus cuentas, movimientos y saldos viven en tu dispositivo y en tu propia cuenta de iCloud. Nosotros no tenemos servidores que los reciban, no los vemos y no los vendemos.</p></div>
+
+  <h2>Qué datos maneja la app y dónde quedan</h2>
+  <p>Lo que capturas o importas en Roseta (cuentas, movimientos, categorías, presupuestos, préstamos, planes, tu nombre y, si la eliges, tu foto) se guarda:</p>
+  <ul>
+    <li><strong>En tu dispositivo</strong> (iPhone, Mac o Apple Watch), dentro del espacio de la app.</li>
+    <li><strong>En tu iCloud</strong>, en una carpeta de la app, para que tus dispositivos se mantengan al día. Ese almacenamiento lo provee Apple bajo tu cuenta y sus <a href="https://www.apple.com/legal/privacy/" rel="noopener">políticas de privacidad</a>.</li>
+  </ul>
+  <p>Los estados de cuenta (PDF o CSV) que eliges para conciliar o importar se leen en tu dispositivo; su contenido no se envía a ningún lado.</p>
+
+  <h2>Lo que no hacemos</h2>
+  <ul>
+    <li>No enviamos tus datos a servidores propios ni de terceros.</li>
+    <li>No usamos analítica, publicidad ni rastreo entre apps o sitios.</li>
+    <li>No pedimos que crees una cuenta ni te conectamos con tu banco.</li>
+  </ul>
+
+  <h2>Permisos del dispositivo</h2>
+  <p>Roseta sólo pide permisos cuando usas la función que los necesita, y puedes retirarlos en Ajustes:</p>
+  <ul>
+    <li><strong>Face ID o Touch ID</strong>, para bloquear la app. La verificación la hace el sistema; Roseta no recibe tus datos biométricos.</li>
+    <li><strong>Notificaciones</strong>, para los recordatorios de pago y los avisos al registrar.</li>
+    <li><strong>Cámara</strong>, sólo cuando escaneas un ticket. El texto se lee en tu dispositivo para llenar el monto, el comercio y la fecha; la foto no se guarda ni se envía.</li>
+    <li><strong>Calendario</strong>, sólo si eliges poner tus pagos recurrentes en él.</li>
+    <li><strong>Fotos o archivos</strong>, sólo para la foto de perfil o el estado de cuenta que tú elijas.</li>
+  </ul>
+
+  <h2>Reportes de errores</h2>
+  <p>Si la app se cierra o se traba, el sistema operativo genera un reporte técnico (sin tus movimientos ni saldos) que Roseta guarda en tu dispositivo. Nada se envía de forma automática: en Ajustes puedes verlos, compartirlos con soporte si así lo decides, o borrarlos. Si en tu dispositivo tienes activado compartir análisis con desarrolladores, Apple también puede hacernos llegar reportes de cierres anónimos.</p>
+
+  <h2>Suscripción a Roseta Plus</h2>
+  <p>Las compras y renovaciones las procesa Apple a través de la App Store. Roseta sólo consulta si tienes una suscripción activa; no recibe tus datos de pago.</p>
+
+  <h2>Tus derechos</h2>
+  <p>Como tus datos están en tu dispositivo y en tu iCloud, tú tienes el control total: puedes exportarlos desde Ajustes › Exportar, corregirlos en la app o borrarlos eliminando la app y la carpeta de Roseta en iCloud (Ajustes › tu nombre › iCloud › Administrar almacenamiento). No conservamos ninguna copia.</p>
+
+  <h2>Menores de edad</h2>
+  <p>Roseta no está dirigida a menores de 13 años y no recolecta datos de nadie, incluidos menores.</p>
+
+  <h2>Cambios a este aviso</h2>
+  <p>Si cambia la forma en que la app maneja tus datos, actualizaremos este aviso y su fecha de vigencia antes de que el cambio llegue a la app.</p>
+
+  <h2>Contacto</h2>
+  <p>Dudas sobre este aviso: <strong>roseta.soporte.mx@gmail.com</strong>.</p>
+</main>
+</body>
+</html>

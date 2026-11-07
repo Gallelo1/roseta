@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Soporte de Roseta</title>
+<style>
+/* Mismo papel que el aviso de privacidad: una columna de lectura, preguntas como apartados. */
+:root { --bg:#F6F6F3; --fg:#161A18; --fg2:#4A504C; --acento:#1E6B57; --borde:#E4E4DE;
+  --ios:-apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#0F1A24; --fg:#ECEFE8; --fg2:#A9B6C0; --acento:#8FD3BB; --borde:#243547; color-scheme:dark; } }
+:root[data-theme="dark"] { --bg:#0F1A24; --fg:#ECEFE8; --fg2:#A9B6C0; --acento:#8FD3BB; --borde:#243547; color-scheme:dark; }
+body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 var(--ios); padding-block:40px 64px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width:66ch; margin:0 auto; }
+h1 { font-size:32px; line-height:1.15; margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance; }
+.sub { color:var(--fg2); margin:0 0 28px; }
+h2 { font-size:19px; margin:32px 0 6px; text-wrap:balance; }
+p, li { color:var(--fg2); }
+strong { color:var(--fg); }
+ul { padding-left:20px; }
+.contacto { border:1px solid var(--borde); border-left:3px solid var(--acento); border-radius:10px; padding:14px 18px; margin:0 0 8px; }
+.contacto p { margin:0; color:var(--fg); }
+.correo { font-weight:600; user-select:all; }
+a { color:var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Soporte de Roseta</h1>
+  <p class="sub">Finanzas personales en tu iPhone, Apple Watch y Mac.</p>
+
+  <div class="contacto"><p>Escríbenos a <span class="correo">roseta.soporte.mx@gmail.com</span>. Respondemos en uno o dos días hábiles. Si algo falló, cuéntanos qué hacías y en qué dispositivo; desde Ajustes puedes adjuntar el reporte de errores si quieres.</p></div>
+
+  <h2>¿Dónde se guardan mis datos?</h2>
+  <p>En tu dispositivo y en tu propia cuenta de iCloud. Roseta no tiene servidores que los reciban y no necesitas crear una cuenta. Lee el <a href="privacidad.html">aviso de privacidad</a>.</p>
+
+  <h2>Mis dispositivos no muestran lo mismo</h2>
+  <ul>
+    <li>Revisa que todos usen la misma cuenta de Apple y que iCloud Drive esté activado para Roseta (Ajustes › tu nombre › iCloud).</li>
+    <li>Abre Roseta en el dispositivo donde hiciste el cambio para que termine de subirlo; los demás lo reciben en segundos.</li>
+    <li>Actualiza Roseta en todos tus dispositivos a la misma versión.</li>
+  </ul>
+
+  <h2>¿Cómo paso mis movimientos de otra app o de mi banco?</h2>
+  <p>En Ajustes › Importar eliges un archivo CSV o Excel. Roseta reconoce las columnas, te deja corregirlas antes de importar y no duplica lo que ya tienes. Cada importación se puede revertir.</p>
+
+  <h2>Roseta Plus</h2>
+  <ul>
+    <li>Plus cuesta $50 al mes o $500 al año, con 7 días gratis la primera vez. Incluye cuentas ilimitadas, Apple Watch, Plan del año y Portafolio.</li>
+    <li>Sin Plus puedes usar hasta 3 cuentas y todo lo demás. Nunca se bloquea algo que ya tienes.</li>
+    <li>Para cancelar: Ajustes del iPhone › tu nombre › Suscripciones › Roseta Plus. Sigue activa hasta el final del periodo pagado.</li>
+    <li>Si cambiaste de dispositivo, toca <strong>Restaurar compras</strong> en la pantalla de Plus.</li>
+    <li>Los reembolsos los gestiona Apple en <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</li>
+  </ul>
+
+  <h2>¿Cómo borro todo?</h2>
+  <p>Exporta primero si quieres una copia (Ajustes › Exportar). Después elimina la app y la carpeta de Roseta en iCloud (Ajustes › tu nombre › iCloud › Administrar almacenamiento). No conservamos ninguna copia.</p>
+</main>
+</body>
+</html>
